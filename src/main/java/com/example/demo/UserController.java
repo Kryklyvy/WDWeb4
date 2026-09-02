@@ -96,7 +96,7 @@ public class UserController {
             CreateEmailOptions request =
                     CreateEmailOptions.builder()
                             .from(resendFrom)
-                            .to("xk.rosal@gmail.com")
+                            .to("xk.gr04@gmail.com")
                             .subject("New Wedding RSVP")
                             .text(email.toString())
                             .build();
@@ -150,7 +150,7 @@ public class UserController {
             CreateEmailOptions request =
                     CreateEmailOptions.builder()
                             .from(resendFrom)
-                            .to("xk.rosal@gmail.com")
+                            .to("xk.gr04@gmail.com")
                             .subject("New Wedding Love Message")
                             .text(emailText)
                             .build();
